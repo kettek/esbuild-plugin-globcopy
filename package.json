@@ -1,6 +1,6 @@
 {
   "name": "esbuild-plugin-globcopy",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "esbuild plugin to copy files based on glob patterns",
   "main": "index.js",
   "keywords": [
