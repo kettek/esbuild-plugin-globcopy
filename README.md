@@ -14,7 +14,7 @@ As with the current esbuild plugin API, this plugin requires a custom build scri
 
 ```js
 import esbuild from 'esbuild'
-import globcopy from 'esbuild-plugin-globcopy'
+import globCopy from 'esbuild-plugin-globcopy'
 
 esbuild.build({
   entryPoints: ['src/index.js'],
