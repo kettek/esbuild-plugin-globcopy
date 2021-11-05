@@ -38,7 +38,7 @@ When calling the module, you can pass in an object that contains various options
 This input directory to copy files from. Defaults to `./`.
 
 ### targets
-Targets can be an array of strings or a single string that provides glob pattern(s).
+Targets can be an array of strings or a single string that provides glob pattern(s). These are resolved relative to `srcdir`.
 
 ### outdir
 The output directory to copy files to. Defaults to esbuild's `outdir` if unspecified.
